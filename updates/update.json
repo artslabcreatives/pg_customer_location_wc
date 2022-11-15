@@ -15,7 +15,7 @@
 		"changelog" : "<h4>1.2 –  16 November 2022</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
 	},
 	"banners" : {
-		"low" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-772x250.jpg",
-		"high" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-1544x500.jpg"
+		"low" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-772x250.png",
+		"high" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-1544x500.png"
 	}
 }
