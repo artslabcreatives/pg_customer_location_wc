@@ -25,7 +25,7 @@ if( ! class_exists( 'ALBUpdater' ) ) {
 			$remote = get_transient($this->cache_key);
 			if(false === $remote || ! $this->cache_allowed) {
 				$remote = wp_remote_get(
-					'http://visany.test/wp-content/plugins/update.json',
+					'https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/update.json',
 					array(
 						'timeout' => 10,
 						'headers' => array(

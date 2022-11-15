@@ -1,0 +1,21 @@
+{
+	"name" : "Payment Gateways by Customer Location for WooCommerce",
+	"slug" : "payment-gateways-by-customer-location-for-woocommerce",
+	"author" : "<a href='https://plugins.artslabcreatives.com'>Miyuru Dharmage</a>",
+	"author_profile" : "http://profiles.wordpress.org/voxsar",
+	"version" : "1.2.0",
+	"download_url" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/1.2/pg-customer-location-woocommerce.zip",
+	"requires" : "3.0",
+	"tested" : "6.1",
+	"requires_php" : "5.3",
+	"last_updated" : "2022-11-16 01:00:00",
+	"sections" : {
+		"description" : "Set countries, states, cities or postcodes to include/exclude for WooCommerce payment gateways to show up",
+		"installation" : "Click the activate button and that's it.",
+		"changelog" : "<h4>1.2 –  16 November 2022</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-772x250.jpg",
+		"high" : "https://plugins.artslabcreatives.com/pg-customer-location-woocommerce/updates/banner-1544x500.jpg"
+	}
+}
