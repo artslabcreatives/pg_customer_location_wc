@@ -109,7 +109,7 @@ final class ALC_PGs_by_Customer_Location {
 	 */
 	function admin() {
 		// Action links
-		//add_filter( 'plugin_action_links_' . plugin_basename( ALG_WC_PGBCL_FILE ), array( $this, 'action_links' ) );
+		add_filter( 'plugin_action_links_' . plugin_basename( ALG_WC_PGBCL_FILE ), array( $this, 'action_links' ) );
 		// Admin functions
 		require_once( 'functions/alg-wc-pgbcl-functions-admin.php' );
 		// Settings
@@ -132,10 +132,7 @@ final class ALC_PGs_by_Customer_Location {
 	function action_links( $links ) {
 		$custom_links = array();
 		$custom_links[] = '<a href="' . admin_url( 'admin.php?page=wc-settings&tab=alc_pg_by_location_wc' ) . '">' . __( 'Settings', 'woocommerce' ) . '</a>';
-		if ( 'payment-gateways-by-customer-location-for-woocommerce.php' === basename( ALG_WC_PGBCL_FILE ) ) {
-			$custom_links[] = '<a target="_blank" style="font-weight: bold; color: green;" href="https://wpfactory.com/item/payment-gateways-by-customer-location-for-woocommerce/">' .
-				__( 'Go Pro', 'payment-gateways-by-customer-location-for-woocommerce' ) . '</a>';
-		}
+		
 		return array_merge( $custom_links, $links );
 	}
 
